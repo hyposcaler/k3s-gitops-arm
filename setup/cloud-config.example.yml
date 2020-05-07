@@ -42,7 +42,7 @@ users:
     lock_passwd: true
     ssh_pwauth: false
     ssh_authorized_keys:
-      - "ssh-rsa ..."
+      - {{ssh-id}}
 
 #
 # @CHANGEME - Update network config
