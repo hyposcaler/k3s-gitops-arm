@@ -1,3 +1,5 @@
+https://github/onedr0p/k3s-gitops-arm served as the basis for this repo as it had already laid the ground work re: ansible and basic scripts and solid documentation for using k3sup to install k8s on pi.  If you are running a k8 cluster on pi I highly recommened you check out the original repo.
+
 # k3s-gitops-arm
 
 ![Kubernetes](https://i.imgur.com/p1RzXjQ.png)
