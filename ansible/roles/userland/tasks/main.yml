@@ -40,7 +40,7 @@
 
 - name: Setup shared library paths
   shell: |
-    set -o pipefail
+    # set -o pipefail
     echo /opt/vc/lib | tee /etc/ld.so.conf.d/00-vmcs.conf
   when: true
 
