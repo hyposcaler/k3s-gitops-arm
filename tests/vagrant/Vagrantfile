@@ -24,8 +24,8 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
 
   # Define four VMs with static private IP addresses.
   boxes = [
-    { :name => "pik3s00", :ip => "192.168.88.200" },
-    { :name => "pik3s01", :ip => "192.168.88.201" }
+    { :name => "pik3s00", :ip => "10.128.88.200" },
+    { :name => "pik3s01", :ip => "10.128.88.201" }
   ]
 
   # Configure each of the VMs.

@@ -51,12 +51,12 @@ This repo uses a lot of multi-arch images provided by [raspbernetes/multi-arch-i
 
 |IP|Function|
 |---|---|
-|192.168.1.1|Router (USG)|
-|192.168.1.170|NFS Server|
-|192.168.42.1/24|k3s cluster CIDR, VLAN 42|
-|192.168.42.23|k3s master (k3s-master)|
-|192.168.42.24|k3s worker (k3s-worker-a)|
-|192.168.42.25|k3s worker (k3s-worker-b)|
+|10.128.1.1|Router (USG)|
+|10.128.128.20|NFS Server|
+|10.128.128.1/23|k3s cluster CIDR, VLAN 42|
+|10.128.128.23|k3s master (k3s-10-128-128-23)|
+|10.128.128.24|k3s worker (k3s-10-128-128-24)|
+|10.128.128.25|k3s worker (k3s-10-128-128-25)|
 
 * * *
 

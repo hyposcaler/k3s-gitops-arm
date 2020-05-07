@@ -3,7 +3,7 @@
 #
 # @CHANGEME - Update hostname
 #
-hostname: k3s-master
+hostname: k3s-10-128-128-23
 manage_etc_hosts: true
 
 #
@@ -28,7 +28,7 @@ packages:
 # @CHANGEME - Update user config
 #
 users:
-  - name: devin
+  - name: hypobot
     primary-group: users
     shell: /bin/bash
     sudo: ALL=(ALL) NOPASSWD:ALL
@@ -56,8 +56,8 @@ write_files:
         ethernets:
           eth0:
             addresses:
-              - 192.168.42.23/24
-            gateway4: 192.168.42.1
+              - 10.128.128.23/23
+            gateway4: 10.128.128.1
             nameservers:
               addresses:
                 - 1.1.1.1

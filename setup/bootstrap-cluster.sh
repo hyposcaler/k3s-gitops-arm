@@ -10,7 +10,7 @@
 #
 # @CHANGEME - Update USER to your RPi SSH user
 #
-USER="devin"
+USER="hypobot"
 K3S_VERSION="v1.17.3+k3s1"
 
 REPO_ROOT=$(git rev-parse --show-toplevel)

@@ -1,8 +1,8 @@
 [k3s_master]
-192.168.88.200 hostname=pik3s00
+10.128.88.200 hostname=pik3s00
 
 [k3s_worker]
-192.168.88.201 hostname=pik3s01
+10.128.88.201 hostname=pik3s01
 
 [k3s_cluster:children]
 k3s_master

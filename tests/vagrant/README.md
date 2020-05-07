@@ -15,7 +15,7 @@ brew cask install https://raw.githubusercontent.com/Homebrew/homebrew-cask/7e703
 ## Change vagrant permissions
 
 ```bash
-sudo chown -R devin: /opt/vagrant/embedded/gems/2.2.6/gems/vagrant-2.2.6
+sudo chown -R hypobot: /opt/vagrant/embedded/gems/2.2.6/gems/vagrant-2.2.6
 ```
 
 ## Run Vagrant

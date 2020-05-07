@@ -61,6 +61,6 @@ spec:
             - key: kubernetes.io/hostname
               operator: In
               values:
-              - k3s-worker-b
+              - k3s-10-128-128-25
   valueFileSecrets:
   - name: "sonarr-helm-values"

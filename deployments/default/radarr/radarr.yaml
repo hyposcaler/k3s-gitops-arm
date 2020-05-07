@@ -59,6 +59,6 @@ spec:
             - key: kubernetes.io/hostname
               operator: In
               values:
-              - k3s-worker-a
+              - k3s-10-128-128-24
   valueFileSecrets:
   - name: "radarr-helm-values"
